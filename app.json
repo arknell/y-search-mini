@@ -1,0 +1,18 @@
+{
+  "apps" : [{
+    "name"       : "search",
+    "script"      : "server/app.js",
+    "watch"       : false,
+    "env": {
+      "NODE_ENV": "production",
+      "batch": true
+    },
+    "env_production" : {
+      "NODE_ENV": "production",
+      "batch": true
+    },
+    "out_file": "logs/t-search-log",
+    "error_file": "logs/t-search-error",
+    "merge_logs": true
+  }]
+}
