@@ -92,7 +92,7 @@
     "lazypipe": "^1.0.1",
     "mocha": "^5.2.0",
     "nodemon": "^1.18.0",
-    "open": "~0.0.4",
+    "open": "~7.0.0",
     "phantomjs-prebuilt": "^2.1.16",
     "proxyquire": "^2.0.1",
     "run-sequence": "^2.2.1",
